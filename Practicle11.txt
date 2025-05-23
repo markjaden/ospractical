@@ -1,0 +1,52 @@
+🔹 Experiment No: 11
+Aim:
+To perform a case study on Red Hat Linux operating system.
+
+Objective:
+To understand the structure, features, and system administration tools used in Red Hat Enterprise Linux (RHEL).
+
+About Red Hat Linux:
+Red Hat Enterprise Linux is a commercial Linux distribution widely used in enterprise environments for its stability, security, and long-term support.
+
+Key Features:
+Commercial support and regular security updates.
+
+Uses RPM package manager.
+
+Service management through systemd and systemctl.
+
+Integrated SELinux for access control and security.
+
+Cloud and container support (Podman, OpenShift).
+
+File System Structure:
+Directory	Purpose
+/	Root directory
+/bin	Essential binaries
+/etc	Configuration files
+/home	User home directories
+/var	Logs, spools, temporary files
+/usr	Installed applications and libraries
+/root	Root user's home directory
+
+System Tools in Red Hat:
+dnf, yum – Install and manage packages.
+
+systemctl – Control services (start, stop, restart).
+
+firewalld – Manage firewall settings.
+
+journalctl – View system logs.
+
+nmcli, ip – Configure network interfaces.
+
+cockpit – Web-based GUI for server administration.
+
+Use Cases:
+Enterprise servers (web, database, application servers)
+
+Government and banking infrastructure
+
+Virtualization and cloud-based platforms
+
+Secure environments with SELinux policie

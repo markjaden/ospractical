@@ -1,0 +1,32 @@
+🔹 Experiment No: 2
+Aim:
+To perform hands-on practice with basic Unix/Linux commands.
+
+Objective:
+To understand file handling, directory navigation, and basic administrative tasks using command-line interface.
+
+Basic Commands Table:
+Category	Command(s)	Description
+Directory	pwd, cd, ls, mkdir, rmdir	Show path, change dir, list, make/remove dir
+File handling	touch, cat, cp, mv, rm	Create, view, copy, move, delete files
+Viewing files	less, more, head, tail	Paginated file viewing
+Permissions	chmod, chown, umask	Manage file permissions
+Processes	ps, top, kill, nice	Monitor/kill processes
+System info	uname, whoami, uptime, id	View user/system info
+Disk usage	df, du	Show disk/file space usage
+Package mgmt	apt, yum, dnf, rpm	Software installation
+Help commands	man, --help, info	Command documentation
+
+Sample Session:
+bash
+Copy
+Edit
+mkdir myfolder
+cd myfolder
+touch file1.txt
+echo "Hello World" > file1.txt
+cat file1.txt
+cp file1.txt copy.txt
+rm copy.txt
+cd ..
+rmdir myfolder

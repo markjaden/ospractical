@@ -1,0 +1,74 @@
+🔹 Experiment No: 1
+Aim:
+To study and perform the installation of Windows/Linux operating system.
+
+Objective:
+To understand the step-by-step installation process of an operating system including disk partitioning, system requirements, and post-installation setup.
+
+Installation Steps for Windows OS:
+Create Bootable Media:
+
+Use tools like Rufus or Windows Media Creation Tool.
+
+Select ISO file and create bootable USB drive.
+
+Configure BIOS/UEFI:
+
+Restart the computer and enter BIOS (press F2, DEL, or ESC).
+
+Set USB/DVD as the first boot device.
+
+Start Installation:
+
+Boot from the USB drive.
+
+Select language, time, and keyboard.
+
+Click “Install Now”.
+
+Disk Partitioning:
+
+Choose the hard disk partition where OS should be installed.
+
+Create/format partitions if needed.
+
+Installation Process:
+
+Wait for the process to complete.
+
+System will restart.
+
+Post Installation:
+
+Create user account and password.
+
+Install drivers and updates.
+
+Installation Steps for Linux OS (Ubuntu/Red Hat):
+Create Bootable USB:
+
+Use BalenaEtcher, UNetbootin, or Rufus to write Linux ISO to USB.
+
+Boot from USB:
+
+Set USB as the first boot device in BIOS.
+
+Choose “Try Ubuntu” or “Install Ubuntu”.
+
+Start Installation:
+
+Select language, keyboard layout, and network settings.
+
+Partition Disk:
+
+Choose auto/manual partitioning.
+
+Use file system types like ext4, swap, etc.
+
+Create User:
+
+Enter username and password.
+
+Finish Installation:
+
+Wait for completion, then restart the system.
